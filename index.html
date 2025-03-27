@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cacao Mágico</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header and Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="title-background">
+        <h1>Cacao Mágico</h1>
+      </div>
+      <p>Experience the magic of ethical cacao sourced from Ecuadorian farmers.</p>
+      <a src="website_titlebg.png" </a>
+    </div>
+  </section>
+
+<!-- About Section -->
+<section id="about">
+    <h2>About Us</h2>
+    <div class="about-container">
+      <!-- Gallery for About Section -->
+      <div class="gallery">
+        <div class="gallery-images">
+          <img src="farmers.jpeg" alt="Cacao Image 1" class="about-gallery-image">
+          <img src="cacao_drink.jpeg" alt="Cacao Image 2" class="about-gallery-image">
+        </div>
+        <button class="prev" onclick="changeAboutImage(-1)">&#10094;</button>
+        <button class="next" onclick="changeAboutImage(1)">&#10095;</button>
+      </div>
+  
+      <!-- Text Section for About -->
+      <div class="about-text">
+        <h3>Cacao with purpose</h3>
+        <p><strong>Ethical chocolate for conscious consumers</strong></p>
+        <p>
+          Cacao Mágico is more than just a chocolate brand; it's a movement. Nestled in Bethesda, Maryland, we unite Ecuadorian smallholder farmers under one umbrella, ensuring they receive fair compensation for their hard work. Our commitment to sustainability and transparency shines through as we leverage blockchain and satellite technology. By choosing Cacao Mágico, you not only indulge in rich, ethical chocolate but also support eco-tourism and empower communities. Experience the magic of cacao with every bite!
+        </p>
+      </div>
+    </div>
+  </section>
+  
+<!-- Products Section -->
+<section id="products">
+    <h2>Our Products</h2>
+    <p>Explore our wide range of premium cacao and chocolate products.</p>
+    
+    <div class="products-container">
+        <!-- Product 1 -->
+        <div class="product-item">
+            <img src="cacao_spray.jpg" alt="Nature Cacao Spray" class="product-image">
+            <h3>Nature Cacao Spray</h3>
+            <p>A nature connected dark chocolate spray.</p>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-item">
+            <img src="cacao_beans.jpeg" alt="Organic Cacao Beans" class="product-image">
+            <h3>Organic Cacao Beans</h3>
+            <p>Nutty, crunchy cacao beans for a healthful boost.</p>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-item">
+            <img src="cacao_drink.jpeg" alt="Spicy Hot Cacao Drink" class="product-image">
+            <h3>Spicy Hot Cacao Drink</h3>
+            <p>A warming blend of cacao and spices for a unique treat.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog">
+    <h2>Cacao Chronicles</h2>
+    <h3>Hi 👋 Isabela here! Welcome to Cacao Mágico.✨🌿🍫</h3>
+
+    <div class="blog-container">
+        <!-- Image Gallery Section -->
+        <div class="gallery">
+            <div class="gallery-images">
+                <img src="founder.png" alt="Cacao Image 1" class="gallery-image active">
+                <img src="cacao_streets.png" alt="Cacao Image 2" class="gallery-image">
+                <img src="cacao_mix.png" alt="Cacao Image 3" class="gallery-image">
+                <img src="Cacao_cups_isa_and_sai.jpg" alt="Cacao Image 4" class="gallery-image">
+            </div>
+            <button class="prev" onclick="changeBlogImage(-1)">&#10094;</button>
+            <button class="next" onclick="changeBlogImage(1)">&#10095;</button>
+        </div>
+
+        <!-- Blog Text Section -->
+        <div class="blog-text">
+            <p class="short-description">
+                My journey with cacao began in México, where I was introduced to its history, cultural roots, and incredible benefits. Learning about the traditions of cacao, from its role in connecting us to ancestors through ceremony to modern uses for well-being, ignited a passion that I would love to share with you all. ❤️‍🔥
+            </p>
+            <div class="full-description">
+                <p>
+                    Cacao isn’t just chocolate—it’s a sacred plant with roots in Mesoamerican traditions, offering nourishment for both body and spirit. Known as the “food of Gods” cacao is cherished as both a food and medicine. 🌿
+                </p>
+                <p>
+                    This account will be a space for sharing the fascinating history of cacao, its benefits, and how we can honor its traditions. Stay tuned for educational posts, cultural insights, and ways to connect more with this magical plant.🌱💛
+                </p>
+                <p>#CacaoMágico #SacredCacao #CacaoHistory #Cacao #CacaoCeremony #OaxacaMexico #Mexico #Chocolate</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Get in touch</p>
+    <p>Email: <a href="mailto:ib6022a@american.edu">ib6022a@american.edu</a></p>
+    <p>Location: Bethesda, Maryland, United States</p>
+    <p>Hours:</p>
+    <ul>
+      <li>Monday - Friday: 9:00am - 10:00pm</li>
+      <li>Saturday: 9:00am - 6:00pm</li>
+      <li>Sunday: 9:00am - 12:00pm</li>
+    </ul>
+    <div class="map-preview">
+      <img src="store_image.png" alt="Map Preview" class="map-image">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Developed by Sai Tarun for 2025 Cacao Mágico. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Blog Section Gallery
+    let blogImageIndex = 0;
+    const blogImages = document.querySelectorAll('.gallery-image');
+  
+    // Show the image corresponding to the current index
+    function showBlogImage(index) {
+      blogImages.forEach((img, i) => {
+        img.classList.remove('active');
+        if (i === index) {
+          img.classList.add('active');
+        }
+      });
+    }
+  
+    // Change image based on direction (prev or next)
+    function changeBlogImage(direction) {
+      blogImageIndex += direction;
+  
+      // Loop back to the first image if we go beyond the last
+      if (blogImageIndex >= blogImages.length) {
+        blogImageIndex = 0;
+      }
+      // Loop back to the last image if we go before the first
+      else if (blogImageIndex < 0) {
+        blogImageIndex = blogImages.length - 1;
+      }
+  
+      showBlogImage(blogImageIndex);
+    }
+  
+    // Initially show the first image in the blog section
+    document.addEventListener("DOMContentLoaded", () => {
+      showBlogImage(blogImageIndex);  // Make sure first image is shown
+    });
+  </script>
+
+<script>
+    // About Section Gallery
+    let aboutImageIndex = 0;
+    const aboutImages = document.querySelectorAll('.about-gallery-image');
+  
+    // Show the current image based on the index
+    function showAboutImage(index) {
+      aboutImages.forEach((img, i) => {
+        img.style.display = 'none';  // Hide all images
+        if (i === index) {
+          img.style.display = 'block';  // Show the active image
+        }
+      });
+    }
+  
+    // Change image based on direction (prev or next)
+    function changeAboutImage(direction) {
+      aboutImageIndex += direction;
+  
+      // Loop back to the first image if we go beyond the last
+      if (aboutImageIndex >= aboutImages.length) {
+        aboutImageIndex = 0;
+      }
+      // Loop back to the last image if we go before the first
+      else if (aboutImageIndex < 0) {
+        aboutImageIndex = aboutImages.length - 1;
+      }
+  
+      showAboutImage(aboutImageIndex);
+    }
+  
+    // Initially show the first image when the page loads
+    document.addEventListener("DOMContentLoaded", () => {
+      showAboutImage(aboutImageIndex);
+    });
+  </script>
+  
+</body>
+</html>
